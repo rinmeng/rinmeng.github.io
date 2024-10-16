@@ -11,7 +11,7 @@ const Copyright = () => {
                         <img className="w-24 h-auto" src={logo} alt="rin meng logo" />
                     </a>
                 </span>
-                See <a href="https://github.com/rinmeng" target="_blank" rel="noopener noreferrer"
+                See <a href="https://github.com/rinmeng/rinmeng.github.io?tab=AGPL-3.0-1-ov-file" target="_blank" rel="noopener noreferrer"
                     className="underline hover:text-slate-900 t200e">GitHub</a> for more info on licensing.
             </p>
         </div>
