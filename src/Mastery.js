@@ -19,6 +19,7 @@ import gitlogo from './imgs/icons/gitlogo.png';
 import mysqlLogo from './imgs/icons/mysqllogo.png';
 import phpLogo from './imgs/icons/phplogo.png';
 import excelLogo from './imgs/icons/excellogo.png';
+import nodejsLogo from './imgs/icons/nodejslogo.png';
 
 const Mastery = () => {
     const mastery = [];
@@ -35,6 +36,7 @@ const Mastery = () => {
     addMastery("Markdown", markdownLogo);
     addMastery("LaTeX", latexLogo);
 
+    addMastering("NodeJS", nodejsLogo);
     addMastering("JavaScript", javascriptLogo);
     addMastering("R", rlogo);
     addMastering("MySQL", mysqlLogo);
@@ -43,6 +45,7 @@ const Mastery = () => {
     addMastering("ReactJS", reactjsLogo);
     addMastering("Android Studio", androidstudioLogo);
     addMastering("RStudio", rstudioLogo);
+
 
     addExperienced("Selenium", seleniumLogo);
     addExperienced("C#/CSharp", csharpLogo);

@@ -15,6 +15,7 @@ import seacWebsite from './imgs/seacwebsite.png';
 import rmwebsite from './imgs/rmwebsite.png';
 import ubcobookingbot from './imgs/ubcobookingbot.png';
 import kdtwebsite from './imgs/kdtwebsite.png';
+import nodejsLogo from './imgs/icons/nodejslogo.png';
 
 
 const Projects = () => {
@@ -30,7 +31,7 @@ const Projects = () => {
         rmwebsite,
         "South East Asian Club's Website Image",
         "https://github.com/rinmeng/rinmeng.github.io",
-        [html5Logo, css3Logo, jsLogo, tailwindcssLogo, reactjsLogo]
+        [html5Logo, css3Logo, jsLogo, nodejsLogo, tailwindcssLogo, reactjsLogo]
     );
     addProject(
         "South East Asian Club's Website",
@@ -38,7 +39,7 @@ const Projects = () => {
         seacWebsite,
         "South East Asian Club's Website Image",
         "https://seacsuo.github.io/",
-        [html5Logo, css3Logo, jsLogo, tailwindcssLogo, gitLogo]
+        [html5Logo, css3Logo, jsLogo, nodejsLogo, reactjsLogo, tailwindcssLogo, gitLogo]
     );
     addProject(
         "KPop Dance Team's Website",
