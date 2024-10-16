@@ -81,7 +81,7 @@ function NavbarPanel({ isPanelOpen, togglePanel }) {
 
             </nav>
             <nav>
-                <div id="blur-panel" className={`fixed -z-10 w-full h-full bg-black t500e ${isPanelOpen ? 'z-10 opacity-75 ' : 'opacity-0'}`}></div>
+                <div id="blur-panel" className={`fixed -z-10 w-full h-full bg-black t500e ${isPanelOpen ? 'opacity-75 z-10 ' : 'opacity-0'}`}></div>
             </nav>
 
         </div>
