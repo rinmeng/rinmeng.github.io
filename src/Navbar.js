@@ -15,7 +15,7 @@ function Navbar({ isPanelOpen, togglePanel }) {
             </a>
             <img
                 id="hamburger"
-                className="w-12 lg:w-20 h-auto point zoomin t200e opacity-80 hover:opacity-100"
+                className={`${isPanelOpen ? 'opacity-0' : 'opacity-80'} w-12 lg:w-20 h-auto point zoomin t200e  hover:opacity-100 `}
                 src={hamburger}
                 alt="navbar icon"
                 onClick={togglePanel} // Handle click to toggle panel

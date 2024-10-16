@@ -755,6 +755,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.-ml-96 {
+  margin-left: -24rem;
+}
+
 .flex {
   display: flex;
 }
@@ -1202,6 +1206,14 @@ video {
 
   .lg\:w-44 {
     width: 11rem;
+  }
+
+  .lg\:w-32 {
+    width: 8rem;
+  }
+
+  .lg\:w-96 {
+    width: 24rem;
   }
 
   .lg\:max-w-28 {
