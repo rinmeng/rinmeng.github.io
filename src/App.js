@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import './output.css';
+import Navbar from './Navbar.js';
+import NavbarPanel from './NavbarPanel.js';
+import { useNavbar } from './Main.js';
+import LandingPage from './LandingPage.js';
+import About from './About.js';
+import Projects from './Projects.js';
+import Contact from './Contact.js';
+import Copyright from './Copyright.js';
+import Mastery from './Mastery.js';
 
 function App() {
+  const { isPanelOpen, togglePanel } = useNavbar();
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar isPanelOpen={isPanelOpen} togglePanel={togglePanel} />
+      <NavbarPanel isPanelOpen={isPanelOpen} togglePanel={togglePanel} />
+      <LandingPage />
+      <About />
+      <Mastery />
+      <Projects />
+      <Contact />
+      <Copyright />
     </div>
   );
 }
