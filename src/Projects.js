@@ -53,7 +53,7 @@ const Projects = () => {
 
     addProject(
         "UBCO Booking Bot",
-        "This is a project that I worked on during my time at UBCO. It is a Python + seleniumLogo bot that uses an advanced time-based algorithm to book study rooms in UBCO.",
+        "This is a project that I worked on during my time at UBCO. It is a Python + Selenium bot that uses an advanced time-based algorithm to book study rooms in UBCO.",
         ubcobookingbot,
         "UBCO Booking Bot Image",
         "https://github.com/rinmeng/UBCOBookingBot",
