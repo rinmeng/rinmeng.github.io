@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.c7cc9e36.css",
-    "main.js": "/static/js/main.973816e3.js",
+    "main.css": "/static/css/main.948461b2.css",
+    "main.js": "/static/js/main.06d03f9c.js",
     "static/media/seacwebsite.png": "/static/media/seacwebsite.ac4aa85f9ccc5e09aa4b.png",
     "static/media/rmwebsite.png": "/static/media/rmwebsite.5653f874ff81e4d040ca.png",
+    "static/media/kdtwebsite.png": "/static/media/kdtwebsite.e6465a6b15acdc31ee32.png",
     "static/media/cal.jpeg": "/static/media/cal.2ad9bd3e8763596d2f0e.jpeg",
     "static/media/rmlogo.png": "/static/media/rmlogo.f1fb6d5319f1280adec4.png",
     "static/media/androidstudiologo.png": "/static/media/androidstudiologo.8d3d843f14ee8921dc04.png",
     "static/media/assemblylogo.png": "/static/media/assemblylogo.bd9ce247b6379116c4d0.png",
     "static/media/pythonlogo.png": "/static/media/pythonlogo.52d7bb207f9868b90e39.png",
-    "static/media/kdtwebsite.png": "/static/media/kdtwebsite.764b4220629a144e9aaf.png",
     "static/media/ubcobookingbot.png": "/static/media/ubcobookingbot.7f187241dfc56fe12f98.png",
     "static/media/csharplogo.png": "/static/media/csharplogo.08ffa1ea56aab6925519.png",
     "static/media/three.png": "/static/media/three.d4edcf9d1831043010e6.png",
@@ -27,11 +27,11 @@
     "static/media/markdownlogo.png": "/static/media/markdownlogo.347804a8b69daecb60b4.png",
     "static/media/javalogo.svg": "/static/media/javalogo.b0ef09307968614e85c5ffee5dada442.svg",
     "index.html": "/index.html",
-    "main.c7cc9e36.css.map": "/static/css/main.c7cc9e36.css.map",
-    "main.973816e3.js.map": "/static/js/main.973816e3.js.map"
+    "main.948461b2.css.map": "/static/css/main.948461b2.css.map",
+    "main.06d03f9c.js.map": "/static/js/main.06d03f9c.js.map"
   },
   "entrypoints": [
-    "static/css/main.c7cc9e36.css",
-    "static/js/main.973816e3.js"
+    "static/css/main.948461b2.css",
+    "static/js/main.06d03f9c.js"
   ]
 }
