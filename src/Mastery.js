@@ -71,7 +71,7 @@ const Mastery = () => {
                 <div className="my-5">
                     <h1 className="text-5xl md:text-7xl text-center text-green-300 font-extrabold">Mastering</h1>
                     <p className="text-2xl md:text-3xl text-center text-white m-5">
-                        These are the skills I am still learning. I have a good understanding of them, but I am not yet proficient.
+                        These are the skills I am still learning. I have a good understanding of them and is learning to be proficient.
                     </p>
                     <div className="flex flex-wrap justify-center items-center my-5">
                         {mastering.map((masteringItem, index) => (

@@ -43,17 +43,17 @@ const Projects = () => {
     );
     addProject(
         "KPop Dance Team's Website",
-        "I oversaw the Digital Producer role where I was in charge of their website development, maintenance, and video editing. Pending port to ReactJS + TailwindCSS workframe!",
+        "I oversaw the Digital Producer role where I was in charge of their website development, maintenance, and video editing.",
         kdtwebsite,
         "KPop Dance Team's Website Image",
         "https://kdtsuo.github.io/",
-        [html5Logo, css3Logo, jsLogo]
+        [html5Logo, css3Logo, jsLogo, nodejsLogo, reactjsLogo, tailwindcssLogo]
     );
 
 
     addProject(
         "UBCO Booking Bot",
-        "This is a project that I worked on during my time at UBCO. It is a Python + Selenium bot that uses an advanced time-based algorithm to book study rooms in UBCO.",
+        "This is a project that I worked on during my time at UBCO. It is a Python + Selenium bot that uses an advanced time-based algorithm to book study rooms in UBCO. It leverages the Tkinter library from Python for GUI.",
         ubcobookingbot,
         "UBCO Booking Bot Image",
         "https://github.com/rinmeng/UBCOBookingBot",
