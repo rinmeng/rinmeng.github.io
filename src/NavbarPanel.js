@@ -8,6 +8,20 @@ import linkedinlogo from './imgs/icons/linkedinlogo.png';
 import maillogo from './imgs/icons/maillogo.png';
 import instagramlogo from './imgs/icons/instagramlogo.png';
 
+const navLinks = [
+    { href: "#about", text: "About" },
+    { href: "#mastery", text: "Mastery" },
+    { href: "#projects", text: "Projects" },
+    { href: "#contactsection", text: "Contact" }
+];
+
+const quickLinks = [
+    { href: "https://www.github.com/rinmeng", src: githublogo, alt: "github icon" },
+    { href: "https://www.linkedin.com/in/rin-meng-b28910234/", src: linkedinlogo, alt: "linkedin icon" },
+    { href: "mailto:phurinmeng@gmail.com", src: maillogo, alt: "mail icon" },
+    { href: "https://www.instagram.com/rin.m04/?theme=dark", src: instagramlogo, alt: "instagram icon" }
+];
+
 function NavbarPanel({ isPanelOpen, togglePanel }) {
     return (
         <div>
@@ -29,53 +43,24 @@ function NavbarPanel({ isPanelOpen, togglePanel }) {
                 </div>
 
                 <div className="flex flex-col justify-center items-center mp3 font-normal">
-                    <a href="#about" className="text-3xl point group mp3">
-                        <span className="nav-option flex justify-center items-center -translate-x-3 opacity-80 group-hover:opacity-100 group-hover:translate-x-0 t200e">
-                            <img className="size-8 fixed opacity-0 -left-3 group-hover:opacity-100 group-hover:left-32 t100d200e" src={three} alt="three icon" />
-                            <img className="arrow-icon-pop-left opacity-0 size-8 t200e" alt="arrow icon" src={arrowright} />
-                            About
-                        </span>
-                    </a>
-                    <a href="#mastery" className="text-3xl point group mp3">
-                        <span className="nav-option flex justify-center items-center -translate-x-3 opacity-80 group-hover:opacity-100 group-hover:translate-x-0 t200e">
-                            <img className="size-8 fixed opacity-0 -left-3 group-hover:opacity-100 group-hover:left-36 t100d200e" src={three} alt="three icon" />
-                            <img className="arrow-icon-pop-left opacity-0 size-8 t200e" alt="arrow icon" src={arrowright} />
-                            Mastery
-                        </span>
-                    </a>
-                    <a href="#projects" className="text-3xl point group mp3">
-                        <span className="nav-option flex justify-center items-center -translate-x-3 opacity-80 group-hover:opacity-100 group-hover:translate-x-0 t200e">
-                            <img className="size-8 fixed opacity-0 -left-3 group-hover:opacity-100 group-hover:left-36 t100d200e" src={three} alt="three icon" />
-                            <img className="arrow-icon-pop-left opacity-0 size-8 t200e" alt="arrow icon" src={arrowright} />
-                            Projects
-                        </span>
-                    </a>
-                    <a href="#contactsection" className="text-3xl point group mp3">
-                        <span className="nav-option flex justify-center items-center -translate-x-3 opacity-80 group-hover:opacity-100 group-hover:translate-x-0 t200e">
-                            <img className="size-8 fixed opacity-0 -left-3 group-hover:opacity-100 group-hover:left-36 t100d200e" src={three} alt="three icon" />
-                            <img className="arrow-icon-pop-left opacity-0 size-8 t200e" alt="arrow icon" src={arrowright} />
-                            Contact
-                        </span>
-                    </a>
+                    {navLinks.map((link, index) => (
+                        <a key={index} href={link.href} className="text-3xl point group mp3">
+                            <span className="nav-option flex justify-center items-center -translate-x-3 opacity-80 group-hover:opacity-100 group-hover:translate-x-0 t200e">
+                                <img className="size-8 fixed opacity-0 -left-3 group-hover:opacity-100 group-hover:left-36 t100d200e" src={three} alt="three icon" />
+                                <img className="arrow-icon-pop-left opacity-0 size-8 t200e" alt="arrow icon" src={arrowright} />
+                                {link.text}
+                            </span>
+                        </a>
+                    ))}
                 </div>
                 <div className="quicklinks mp3">
                     <div className="flex justify-center items-center">
-                        <a target="_blank" rel="noreferrer" href="https://www.github.com/rinmeng"
-                            className="ql point nudgeup fadein80 t200e">
-                            <img className="size-12 m-3" src={githublogo} alt="github icon" />
-                        </a>
-                        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rin-meng-b28910234/"
-                            className="ql point nudgeup fadein80 t200e">
-                            <img className="size-12 m-3" src={linkedinlogo} alt="linkedin icon" />
-                        </a>
-                        <a target="_blank" rel="noreferrer" href="mailto:phurinmeng@gmail.com"
-                            className="ql point nudgeup fadein80 t200e">
-                            <img className="size-12 m-3" src={maillogo} alt="mail icon" />
-                        </a>
-                        <a target="_blank" rel="noreferrer" href="https://www.instagram.com/rin.m04/?theme=dark"
-                            className="ql point nudgeup fadein80 t200e">
-                            <img className="size-12 m-3" src={instagramlogo} alt="instagram icon " />
-                        </a>
+                        {quickLinks.map((link, index) => (
+                            <a key={index} target="_blank" rel="noreferrer" href={link.href}
+                                className="ql point nudgeup fadein80 t200e">
+                                <img className="size-12 m-3" src={link.src} alt={link.alt} />
+                            </a>
+                        ))}
                     </div>
                 </div>
 
