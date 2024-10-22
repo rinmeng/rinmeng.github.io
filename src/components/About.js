@@ -1,5 +1,5 @@
 import React from 'react';
-import mediaImage from '../imgs/media.png';
+import me from '../imgs/me.jpg';
 
 const About = () => {
     return (
@@ -8,7 +8,7 @@ const About = () => {
                 &nbsp;
             </div>
             <div className="glass-slate p-5">
-                <div >
+                <div>
                     <h1 className="text-6xl md:text-8xl text-center text-green-300 font-extrabold">About</h1>
                     <p className="text-2xl md:text-4xl text-center text-green-300">
                         {/* Add some introductory text here if needed */}
@@ -16,9 +16,17 @@ const About = () => {
                 </div>
 
                 <div className="glass-slate flex justify-center items-center rounded-lg my-5">
-                    <div className="flex flex-wrap lg:flex-nowrap">
-                        <img className="size-full lg:size-1/2" src={mediaImage} alt="media" />
-                        <div className="m-5">
+                    <div className="flex justify-center flex-wrap lg:flex-nowrap w-full items-center">
+                        <div className="w-full lg:w-1/3 flex justify-center">
+                            <img
+                                className="w-full h-auto object-cover rounded-lg"
+                                src={me}
+                                alt="profile"
+                            />
+                        </div>
+
+                        {/* Text section */}
+                        <div className="w-full lg:w-1/2 m-5">
                             <h2 className="text-4xl md:text-5xl text-center text-green-300">
                                 Who am I?
                             </h2>
