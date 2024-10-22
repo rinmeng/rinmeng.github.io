@@ -40,13 +40,13 @@ const Contact = () => {
                     ))}
                 </div>
 
-                {/* <div>
+                <div>
                     <h1 className='text-4xl md:text-6xl text-center text-green-300 font-extrabold my-14'>Or fill in a form</h1>
                 </div>
 
                 <div>
                     <ContactForm />
-                </div> */}
+                </div>
             </div>
         </div>
     );
