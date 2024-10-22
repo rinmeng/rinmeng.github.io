@@ -25,7 +25,9 @@ const Contact = () => {
                 &nbsp;
             </div>
             <div id="contact" className="m-5">
-                <h1 className="text-6xl md:text-8xl text-center text-green-300 font-extrabold my-14">Contacts</h1>
+                <h1 className="text-6xl md:text-8xl text-center text-green-300 font-extrabold my-14">
+                    Contacts
+                </h1>
                 <div className="flex justify-center items-center flex-wrap">
                     {contacts.map((contact, index) => (
                         <ContactCard
