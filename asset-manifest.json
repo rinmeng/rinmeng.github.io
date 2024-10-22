@@ -1,18 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.dfce2288.css",
-    "main.js": "/static/js/main.77df7766.js",
+    "main.js": "/static/js/main.32f5bcd7.js",
     "static/media/seacwebsite.png": "/static/media/seacwebsite.ac4aa85f9ccc5e09aa4b.png",
     "static/media/rmwebsite.png": "/static/media/rmwebsite.5653f874ff81e4d040ca.png",
     "static/media/kdtwebsite.png": "/static/media/kdtwebsite.e6465a6b15acdc31ee32.png",
     "static/media/cal.jpeg": "/static/media/cal.2ad9bd3e8763596d2f0e.jpeg",
-    "static/media/rmlogo.png": "/static/media/rmlogo.f1fb6d5319f1280adec4.png",
+    "static/media/rmlogo.png": "/static/media/rmlogo.3040ef1091aa56fc1925.png",
     "static/media/androidstudiologo.png": "/static/media/androidstudiologo.8d3d843f14ee8921dc04.png",
     "static/media/assemblylogo.png": "/static/media/assemblylogo.bd9ce247b6379116c4d0.png",
     "static/media/pythonlogo.png": "/static/media/pythonlogo.52d7bb207f9868b90e39.png",
     "static/media/ubcobookingbot.png": "/static/media/ubcobookingbot.7f187241dfc56fe12f98.png",
     "static/media/csharplogo.png": "/static/media/csharplogo.08ffa1ea56aab6925519.png",
-    "static/media/three.png": "/static/media/three.d4edcf9d1831043010e6.png",
     "static/media/reactjslogo.png": "/static/media/reactjslogo.8ef3369b97f63d785239.png",
     "static/media/media.png": "/static/media/media.fcfb3cd6c88e23c9a1a1.png",
     "static/media/tiktoklogo.png": "/static/media/tiktoklogo.6bd41595a83e2c3f17bf.png",
@@ -21,6 +20,7 @@
     "static/media/phplogo.png": "/static/media/phplogo.77015ebdac1837247829.png",
     "static/media/navbaricon.png": "/static/media/navbaricon.fe6cb25ce11b921920f8.png",
     "static/media/css3logo.png": "/static/media/css3logo.574f7a6e09eefaee57fa.png",
+    "static/media/three.png": "/static/media/three.6e36d0adaa5e455fbaf6.png",
     "static/media/latexlogo.png": "/static/media/latexlogo.f2c727a76b998576ffe7.png",
     "static/media/rstudiologo.png": "/static/media/rstudiologo.329133b64746f1a620e7.png",
     "static/media/mysqllogo.png": "/static/media/mysqllogo.aea237d55b25d82a6d03.png",
@@ -28,10 +28,10 @@
     "static/media/javalogo.svg": "/static/media/javalogo.b0ef09307968614e85c5ffee5dada442.svg",
     "index.html": "/index.html",
     "main.dfce2288.css.map": "/static/css/main.dfce2288.css.map",
-    "main.77df7766.js.map": "/static/js/main.77df7766.js.map"
+    "main.32f5bcd7.js.map": "/static/js/main.32f5bcd7.js.map"
   },
   "entrypoints": [
     "static/css/main.dfce2288.css",
-    "static/js/main.77df7766.js"
+    "static/js/main.32f5bcd7.js"
   ]
 }
