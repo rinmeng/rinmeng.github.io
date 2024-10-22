@@ -1,21 +1,20 @@
 import React from 'react';
-import './output.css';
-import media from './imgs/media.png';
-import ProjectCard from './ProjectCard.js';
-import seleniumLogo from './imgs/icons/seleniumlogo.png';
-import pythonLogo from './imgs/icons/pythonlogo.png';
-import html5Logo from './imgs/icons/html5logo.png';
-import jsLogo from './imgs/icons/jslogo.png';
-import css3Logo from './imgs/icons/css3logo.png';
-import markdownLogo from './imgs/icons/markdownlogo.png';
-import tailwindcssLogo from './imgs/icons/tailwindcsslogo.png';
-import reactjsLogo from './imgs/icons/reactjslogo.png';
-import gitLogo from './imgs/icons/gitlogo.png';
-import seacWebsite from './imgs/seacwebsite.png';
-import rmwebsite from './imgs/rmwebsite.png';
-import ubcobookingbot from './imgs/ubcobookingbot.png';
-import kdtwebsite from './imgs/kdtwebsite.png';
-import nodejsLogo from './imgs/icons/nodejslogo.png';
+import media from '../imgs/media.png';
+import ProjectCard from './subcomponents/ProjectCard.js';
+import seleniumLogo from '../imgs/icons/seleniumlogo.png';
+import pythonLogo from '../imgs/icons/pythonlogo.png';
+import html5Logo from '../imgs/icons/html5logo.png';
+import jsLogo from '../imgs/icons/jslogo.png';
+import css3Logo from '../imgs/icons/css3logo.png';
+import markdownLogo from '../imgs/icons/markdownlogo.png';
+import tailwindcssLogo from '../imgs/icons/tailwindcsslogo.png';
+import reactjsLogo from '../imgs/icons/reactjslogo.png';
+import gitLogo from '../imgs/icons/gitlogo.png';
+import seacWebsite from '../imgs/seacwebsite.png';
+import rmwebsite from '../imgs/rmwebsite.png';
+import ubcobookingbot from '../imgs/ubcobookingbot.png';
+import kdtwebsite from '../imgs/kdtwebsite.png';
+import nodejsLogo from '../imgs/icons/nodejslogo.png';
 
 
 const Projects = () => {

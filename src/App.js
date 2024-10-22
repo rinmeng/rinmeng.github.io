@@ -1,13 +1,13 @@
 import './output.css';
-import Navbar from './Navbar.js';
-import NavbarPanel from './NavbarPanel.js';
+import Navbar from '../src/components/navbar/Navbar.js';
+import NavbarPanel from '../src/components/navbar/NavbarPanel.js';
 import { useNavbar } from './Main.js';
-import LandingPage from './LandingPage.js';
-import About from './About.js';
-import Projects from './Projects.js';
-import Contact from './Contact.js';
-import Copyright from './Copyright.js';
-import Mastery from './Mastery.js';
+import LandingPage from './components/LandingPage.js';
+import About from './components/About.js';
+import Projects from './components/Projects.js';
+import Contact from './components/Contact.js';
+import Copyright from './components/Copyright.js';
+import Mastery from './components/Mastery.js';
 
 function App() {
   const { isPanelOpen, togglePanel } = useNavbar();

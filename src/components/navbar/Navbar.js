@@ -1,6 +1,5 @@
-import './output.css';
-import logo from './imgs/rmlogo.png';
-import hamburger from './imgs/icons/navbaricon.png';
+import logo from '../../imgs/rmlogo.png';
+import hamburger from '../../imgs/icons/navbaricon.png';
 
 function Navbar({ isPanelOpen, togglePanel }) {
     return (

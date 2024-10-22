@@ -1,5 +1,3 @@
-import './output.css';
-
 const MasteryCard = ({ text, image }) => {
     return (
         <div className="relative m-5 point t200e zoomin group contact-item items-center z-0 max-w-30 ">

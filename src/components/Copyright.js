@@ -1,5 +1,5 @@
-import './output.css';
-import logo from './imgs/rmlogo.png';
+
+import logo from '../imgs/rmlogo.png';
 
 const Copyright = () => {
     return (

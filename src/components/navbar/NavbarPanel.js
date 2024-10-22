@@ -1,12 +1,11 @@
-import './output.css';
-import logo from './imgs/rmlogo.png';
-import cross from './imgs/icons/cross.png';
-import arrowright from './imgs/icons/arrowright.png';
-import three from './imgs/three.png';
-import githublogo from './imgs/icons/githublogo.png';
-import linkedinlogo from './imgs/icons/linkedinlogo.png';
-import maillogo from './imgs/icons/maillogo.png';
-import instagramlogo from './imgs/icons/instagramlogo.png';
+import logo from '../../imgs/rmlogo.png';
+import cross from '../../imgs/icons/cross.png';
+import arrowright from '../../imgs/icons/arrowright.png';
+import three from '../../imgs/three.png';
+import githublogo from '../../imgs/icons/githublogo.png';
+import linkedinlogo from '../../imgs/icons/linkedinlogo.png';
+import maillogo from '../../imgs/icons/maillogo.png';
+import instagramlogo from '../../imgs/icons/instagramlogo.png';
 
 const navLinks = [
     { href: "#about", text: "About" },

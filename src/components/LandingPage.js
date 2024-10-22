@@ -1,6 +1,4 @@
-import './output.css';
-import bgImage from './imgs/cal.jpeg';
-
+import bgImage from '../imgs/cal.jpeg';
 
 function LandingPage() {
     return (

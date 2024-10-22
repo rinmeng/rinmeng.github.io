@@ -1,12 +1,10 @@
-
-import './output.css';
-import ContactCard from './ContactCard.js';
-import githubLogo from './imgs/icons/githublogo.png';
-import linkedinLogo from './imgs/icons/linkedinlogo.png';
-import instagramLogo from './imgs/icons/instagramlogo.png';
-import tiktokLogo from './imgs/icons/tiktoklogo.png';
-import youtubeLogo from './imgs/icons/youtubelogo.png';
-import mailLogo from './imgs/icons/maillogo.png';
+import ContactCard from './subcomponents/ContactCard';
+import githubLogo from '../imgs/icons/githublogo.png';
+import linkedinLogo from '../imgs/icons/linkedinlogo.png';
+import instagramLogo from '../imgs/icons/instagramlogo.png';
+import tiktokLogo from '../imgs/icons/tiktoklogo.png';
+import youtubeLogo from '../imgs/icons/youtubelogo.png';
+import mailLogo from '../imgs/icons/maillogo.png';
 
 const Contact = () => {
     const contacts = [];
