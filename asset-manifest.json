@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.1625d1f2.css",
+    "main.css": "/static/css/main.e8af4537.css",
     "main.js": "/static/js/main.717e9f01.js",
     "static/media/me.jpg": "/static/media/me.48a2966f8dd3bddab56a.jpg",
     "static/media/seacwebsite.png": "/static/media/seacwebsite.ac4aa85f9ccc5e09aa4b.png",
@@ -28,11 +28,11 @@
     "static/media/markdownlogo.png": "/static/media/markdownlogo.347804a8b69daecb60b4.png",
     "static/media/javalogo.svg": "/static/media/javalogo.b0ef09307968614e85c5ffee5dada442.svg",
     "index.html": "/index.html",
-    "main.1625d1f2.css.map": "/static/css/main.1625d1f2.css.map",
+    "main.e8af4537.css.map": "/static/css/main.e8af4537.css.map",
     "main.717e9f01.js.map": "/static/js/main.717e9f01.js.map"
   },
   "entrypoints": [
-    "static/css/main.1625d1f2.css",
+    "static/css/main.e8af4537.css",
     "static/js/main.717e9f01.js"
   ]
 }
