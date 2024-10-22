@@ -5,6 +5,7 @@ import instagramLogo from '../imgs/icons/instagramlogo.png';
 import tiktokLogo from '../imgs/icons/tiktoklogo.png';
 import youtubeLogo from '../imgs/icons/youtubelogo.png';
 import mailLogo from '../imgs/icons/maillogo.png';
+import ContactForm from './subcomponents/ContactForm';
 
 const Contact = () => {
     const contacts = [];
@@ -38,6 +39,14 @@ const Contact = () => {
                         />
                     ))}
                 </div>
+
+                {/* <div>
+                    <h1 className='text-4xl md:text-6xl text-center text-green-300 font-extrabold my-14'>Or fill in a form</h1>
+                </div>
+
+                <div>
+                    <ContactForm />
+                </div> */}
             </div>
         </div>
     );

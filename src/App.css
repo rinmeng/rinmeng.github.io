@@ -78,4 +78,8 @@
   .fadein0 {
     @apply opacity-0 hover:opacity-100;
   }
+
+  .forms {
+    @apply p-3 rounded-md border-slate-500 border-2 bg-slate-600 bg-transparent text-white;
+  }
 }
