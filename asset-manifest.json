@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.45f08936.css",
-    "main.js": "/static/js/main.a06cec94.js",
+    "main.css": "/static/css/main.aa48b32e.css",
+    "main.js": "/static/js/main.c5eb8bfd.js",
     "static/media/me.jpg": "/static/media/me.48a2966f8dd3bddab56a.jpg",
     "static/media/seacwebsite.png": "/static/media/seacwebsite.ac4aa85f9ccc5e09aa4b.png",
     "static/media/rmwebsite.png": "/static/media/rmwebsite.5653f874ff81e4d040ca.png",
@@ -26,13 +26,14 @@
     "static/media/rstudiologo.png": "/static/media/rstudiologo.329133b64746f1a620e7.png",
     "static/media/mysqllogo.png": "/static/media/mysqllogo.aea237d55b25d82a6d03.png",
     "static/media/markdownlogo.png": "/static/media/markdownlogo.347804a8b69daecb60b4.png",
+    "static/media/unitylogo.png": "/static/media/unitylogo.acb75b3f4a9a0e36db6e.png",
     "static/media/javalogo.svg": "/static/media/javalogo.b0ef09307968614e85c5ffee5dada442.svg",
     "index.html": "/index.html",
-    "main.45f08936.css.map": "/static/css/main.45f08936.css.map",
-    "main.a06cec94.js.map": "/static/js/main.a06cec94.js.map"
+    "main.aa48b32e.css.map": "/static/css/main.aa48b32e.css.map",
+    "main.c5eb8bfd.js.map": "/static/js/main.c5eb8bfd.js.map"
   },
   "entrypoints": [
-    "static/css/main.45f08936.css",
-    "static/js/main.a06cec94.js"
+    "static/css/main.aa48b32e.css",
+    "static/js/main.c5eb8bfd.js"
   ]
 }
