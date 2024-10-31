@@ -19,6 +19,8 @@ import mysqlLogo from '../imgs/icons/mysqllogo.png';
 import phpLogo from '../imgs/icons/phplogo.png';
 import excelLogo from '../imgs/icons/excellogo.png';
 import nodejsLogo from '../imgs/icons/nodejslogo.png';
+import unityLogo from '../imgs/icons/unitylogo.png';
+import tableauLogo from '../imgs/icons/tableaulogo.png';
 
 const Mastery = () => {
     const mastery = [];
@@ -51,6 +53,8 @@ const Mastery = () => {
     addExperienced("Assembly", assemblyLogo);
     addExperienced("PHP", phpLogo);
     addExperienced("Excel", excelLogo);
+    addExperienced("Unity", unityLogo);
+    addExperienced("Tableau", tableauLogo);
 
     return (
         <div>
