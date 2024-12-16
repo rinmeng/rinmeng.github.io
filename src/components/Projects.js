@@ -15,6 +15,11 @@ import rmwebsite from '../imgs/rmwebsite.png';
 import ubcobookingbot from '../imgs/ubcobookingbot.png';
 import kdtwebsite from '../imgs/kdtwebsite.png';
 import nodejsLogo from '../imgs/icons/nodejslogo.png';
+import pc8th from '../imgs/pc8th.png';
+import firebaseLogo from '../imgs/icons/firebaselogo.png';
+import expressLogo from '../imgs/icons/expresslogo.png';
+import dockerLogo from '../imgs/icons/dockerlogo.png';
+import mysqlLogo from '../imgs/icons/mysqllogo.png';
 
 
 const Projects = () => {
@@ -23,6 +28,15 @@ const Projects = () => {
     const addProject = (text, description, image, alt, link, toolTipImages) => {
         projects.push({ text, description, image, alt, link, toolTipImages });
     };
+
+    addProject(
+        "PC8th E-Commerce Website",
+        "PC8th is an PC parts e-commerce website that me and my partner developed for a project. It is my first full-stack website developing exprience.",
+        pc8th,
+        "PC8th E-Commerce Website Image",
+        "https://github.com/rinmeng/PC8th/blob/main/304%20Project%20Documentation.pdf",
+        [html5Logo, css3Logo, jsLogo, nodejsLogo, tailwindcssLogo, expressLogo, mysqlLogo]
+    );
 
     addProject(
         "This Website",

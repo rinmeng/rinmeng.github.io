@@ -884,6 +884,14 @@ video {
   width: 100vw;
 }
 
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-3\/4 {
+  width: 75%;
+}
+
 .max-w-10 {
   max-width: 2.5rem;
 }
@@ -961,6 +969,10 @@ video {
 
 .cursor-not-allowed {
   cursor: not-allowed;
+}
+
+.flex-row {
+  flex-direction: row;
 }
 
 .flex-col {
