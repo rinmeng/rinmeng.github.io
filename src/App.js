@@ -13,12 +13,14 @@ import { useEffect } from 'react';
 function App() {
   const { isPanelOpen, togglePanel } = useNavbar();
 
+
   useEffect(() => {
     // Check if we're not already on the target domain
     if (window.location.hostname !== 'rinmeng.vercel.app') {
       window.location.href = 'https://rinmeng.vercel.app';
     }
   }, []);
+
 
   return (
     <div className="App">
