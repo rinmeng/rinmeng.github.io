@@ -17,7 +17,6 @@ import kdtwebsite from '../imgs/kdtwebsite.png';
 import nodejsLogo from '../imgs/icons/nodejslogo.png';
 import pc8th from '../imgs/pc8th.png';
 import mysqlLogo from '../imgs/icons/mysqllogo.png';
-import expressjsLogo from '../imgs/icons/expressjslogo.png';
 import firebaseLogo from '../imgs/icons/firebaselogo.png';
 import dockerLogo from '../imgs/icons/dockerlogo.png';
 
@@ -35,7 +34,7 @@ const Projects = () => {
         pc8th,
         "PC8th E-Commerce Website Image",
         "https://github.com/rinmeng/PC8th/blob/main/304%20Project%20Documentation.pdf",
-        [html5Logo, css3Logo, jsLogo, nodejsLogo, tailwindcssLogo, expressLogo, mysqlLogo]
+        [html5Logo, css3Logo, jsLogo, nodejsLogo, tailwindcssLogo, mysqlLogo]
     );
 
     addProject(
