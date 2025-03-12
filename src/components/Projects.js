@@ -15,6 +15,10 @@ import rmwebsite from '../imgs/rmwebsite.png';
 import ubcobookingbot from '../imgs/ubcobookingbot.png';
 import kdtwebsite from '../imgs/kdtwebsite.png';
 import nodejsLogo from '../imgs/icons/nodejslogo.png';
+import pc8th from '../imgs/pc8th.png';
+import mysqlLogo from '../imgs/icons/mysqllogo.png';
+import expressjsLogo from '../imgs/icons/expressjslogo.png';
+
 
 
 const Projects = () => {
@@ -25,7 +29,16 @@ const Projects = () => {
     };
 
     addProject(
-        "This Website",
+        "PC8th Website",
+        "PC8th is a Project from my Intro to Databases course where we learned how to create an online shopping website using MySQL. This was a joint project between me and my partner, Noah Stewart.",
+        pc8th,
+        "PC8th Website Image",
+        "https://github.com/rinmeng/PC8th",
+        [mysqlLogo, expressjsLogo, jsLogo, nodejsLogo, tailwindcssLogo, reactjsLogo]
+    );
+
+    addProject(
+        "Personal Website",
         "There are many stages to my personal website development. Where I went from a simple HTML/CSS website, to TailwindCSS, and now to ReactJS + TailwindCSS.",
         rmwebsite,
         "South East Asian Club's Website Image",
