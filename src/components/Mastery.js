@@ -21,6 +21,9 @@ import excelLogo from '../imgs/icons/excellogo.png';
 import nodejsLogo from '../imgs/icons/nodejslogo.png';
 import unityLogo from '../imgs/icons/unitylogo.png';
 import tableauLogo from '../imgs/icons/tableaulogo.png';
+import firebaseLogo from '../imgs/icons/firebaselogo.png';
+import expressLogo from '../imgs/icons/expresslogo.png';
+import dockerLogo from '../imgs/icons/dockerlogo.png';
 
 const Mastery = () => {
     const mastery = [];
@@ -37,6 +40,10 @@ const Mastery = () => {
     addMastery("Markdown", markdownLogo);
     addMastery("LaTeX", latexLogo);
 
+
+    addMastering("Firebase", firebaseLogo);
+    addMastering("ExpressJS", expressLogo);
+    addMastering("Docker", dockerLogo);
     addMastering("NodeJS", nodejsLogo);
     addMastering("JavaScript", javascriptLogo);
     addMastering("R", rlogo);
